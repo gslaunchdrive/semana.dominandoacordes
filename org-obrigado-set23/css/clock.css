@@ -10,7 +10,7 @@
 #clock > div {
 	padding: 10px;
 	border-radius: 3px;
-	background: repeating-radial-gradient(#010f52b8, transparent 150px);
+	background: repeating-radial-gradient(#075201b8, transparent 150px);
 	display: inline-block;
     width: 120px;
 }
@@ -18,7 +18,7 @@
 #clock div > span {
 	padding: 15px;
 	border-radius: 3px;
-	background: #003972;
+	background: #1f9503;
 	display: inline-block;
     width: 80px;
 }

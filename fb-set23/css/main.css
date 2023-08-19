@@ -3,7 +3,7 @@
     padding-bottom: 200px;
     overflow: hidden;
     width: 100%;
-    background-image: url(../assets/justica.webp);
+    background-image: url(../assets/wallpaper.webp);
     background-attachment: fixed;
     background-size: cover;
     -moz-background-size: cover;
@@ -16,7 +16,7 @@
     background: radial-gradient(#000000e0, #000000);
     border-radius: 15px;
     padding: 40px 50px;
-    filter: hue-rotate(0deg) saturate(1) brightness(1) contrast(1) invert(0) sepia(0) blur(0px) grayscale(0) drop-shadow(rgb(0 116 232) 0px 0px 24px);
+    filter: hue-rotate(0deg) saturate(1) brightness(1) contrast(1) invert(0) sepia(0) blur(0px) grayscale(0) drop-shadow(rgb(13 223 13) 0px 0px 24px);
 }
 
 #section-1 h1,
@@ -64,30 +64,43 @@
 #section-2 {
     /* background: radial-gradient(#2204c380, #07abb7);
      */
-     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#02058e+0,030550+44,000528+100 */
+     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#02058e+0,0b5003+44,000528+100 */
     background: #000528; /* Old browsers */
-    background: -moz-linear-gradient(top,  #000528 0%, #030550 44%, #000528 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  #000528 0%,#030550 44%,#000528 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  #000528 0%,#030550 44%,#000528 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000528', endColorstr='#000528',GradientType=0 ); /* IE6-9 */
+    /* linear-gradient(to bottom,  #002805 0%,#0b5003 44%,#002805 100%) */
+    background: -moz-linear-gradient(top,  #002805 0%, #0b5003 44%, #002805 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #002805 0%,#0b5003 44%,#002805 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #002805 0%,#0b5003 44%,#002805 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002805', endColorstr='#002805',GradientType=0 ); /* IE6-9 */
+}
+
+#section-3 {
+    /* background: radial-gradient(#2204c380, #07abb7);
+     */
+     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#02058e+0,141414+44,000528+100 */
+    background: #000528; /* Old browsers */
+    background: -moz-linear-gradient(top,  #051000 0%, #141414 44%, #051000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #051000 0%,#141414 44%,#051000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #051000 0%,#141414 44%,#051000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#051000', endColorstr='#051000',GradientType=0 ); /* IE6-9 */
 }
 
 
-#section-2 #image01 {
+
+#section-3 #image01 {
     background-image: url(../assets/oportunidade.png);
     background-size: cover;
     background-position: center right;
     background-repeat: no-repeat;
     border: 0px;
 }
-#section-2 #image02 {
+#section-3 #image02 {
     background-image: url(../assets/caminho.png);
     background-size: cover;
     background-position: center right;
     background-repeat: no-repeat;
     border: 0px;
 }
-#section-2 #image03 {
+#section-3 #image03 {
     background-image: url(../assets/descubra.png);
     background-size: cover;
     background-position: center right;
@@ -95,7 +108,7 @@
     border: 0px;
 }
 
-#section-2 small {
+#section-3 small {
     font-size: 1.1em;    
 }
 
@@ -103,7 +116,7 @@
     width: 4rem;
     height: 4rem;
     border-radius: .75rem;
-    background-color: #873403 !important;
+    background-color: #038718 !important;
 }
 
 #featured-event .icon-square {
@@ -130,17 +143,17 @@
 }
 
 
-#section-3,
-section#section-4 {
+#section-4,
+section#section-5 {
     background-color: #111111 !important;
 }
 
-#section-5 {
+#section-6 {
     background-color: #070707;
 }
 
-#section-5 .btn,
-#section-3-1 .btn {
+#section-6 .btn,
+#section-4-1 .btn {
     min-width: 300px;
     margin-top: 15px;
     line-height: 50px;
@@ -149,6 +162,11 @@ section#section-4 {
 }
 footer {
     background-color: #000000;
+}
+
+.btn-orange {
+    background-color: #cd7822;
+    color: white;   
 }
 
 
@@ -161,7 +179,7 @@ footer {
     }
     #section-1 .bg-form {
         border-radius: 0;
-        background: radial-gradient(#00053ecc, #010a78cc);
+        background: radial-gradient(#062510cc, #051000);
         padding: 40px 40px 30px;
     }
     #section-1 .event {
