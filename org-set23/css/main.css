@@ -26,7 +26,7 @@
 
 #section-1 .event {
    color: #9de587;
-   font-size: x-large;
+   font-size: 1.5rem;
 }
 
 #section-1 {
@@ -87,21 +87,21 @@
 
 
 #section-3 #image01 {
-    background-image: url(../assets/oportunidade.png);
+    background-image: url(../assets/AULA1.webp);
     background-size: cover;
     background-position: center right;
     background-repeat: no-repeat;
     border: 0px;
 }
 #section-3 #image02 {
-    background-image: url(../assets/caminho.png);
+    background-image: url(../assets/AULA2.webp);
     background-size: cover;
     background-position: center right;
     background-repeat: no-repeat;
     border: 0px;
 }
 #section-3 #image03 {
-    background-image: url(../assets/descubra.png);
+    background-image: url(../assets/AULA3.webp);
     background-size: cover;
     background-position: center right;
     background-repeat: no-repeat;
@@ -167,6 +167,23 @@ footer {
 .btn-orange {
     background-color: #cd7822;
     color: white;   
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+
+.headline {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: italic;
+}
+
+p {
+    font-family: Montserrat;
+    font-weight: 400;
 }
 
 
