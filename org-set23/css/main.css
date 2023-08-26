@@ -171,19 +171,19 @@ footer {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 }
 
 
 .headline {
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-style: italic;
 }
 
 p {
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
 
