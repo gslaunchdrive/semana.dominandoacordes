@@ -14,6 +14,13 @@ $(document).ready(function () {
         return request;
     }
 
+    function loadGoogleFont() {
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = 'https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,700&display=swap';
+        document.head.appendChild(link);
+    }
+
     function loadForm() {
         
         var params = URLToArray(window.location.href)
@@ -27,4 +34,5 @@ $(document).ready(function () {
     }
     
     loadForm();
+    loadGoogleFont();
 });
