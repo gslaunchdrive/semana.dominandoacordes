@@ -170,7 +170,7 @@ footer {
     color: white;   
 }
 
-h1, h2, h3, h4, h5 {
+/* h1, h2, h3, h4, h5 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 }
@@ -180,12 +180,12 @@ h1, h2, h3, h4, h5 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-style: italic;
-}
+} */
 
-p {
+/* p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-}
+} */
 
 
 /* Media Queries */
