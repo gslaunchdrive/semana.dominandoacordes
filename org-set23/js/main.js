@@ -21,7 +21,7 @@ $(document).ready(function () {
             $("[name='field[34]']").val(params['utm_source']);
             $("[name='field[35]']").val(params['utm_campaign']);
             $("[name='field[36]']").val(params['utm_medium']);
-            $("[name='field[37]']").val(params['utm_content']);
+            $("[name='field[39]']").val(params['utm_content']);
             $("[name='field[38]']").val(params['utm_term']);
         }
     }
