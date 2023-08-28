@@ -6,7 +6,7 @@ $(document).ready(function () {
     function loadConfigs() {
         $.get( "https://glcdn.githack.com/ddmlaunch/configs/-/raw/dominandoacordes/obrigado.json",  function( data ) {
             var config = "data[0]";
-            groupWhats = "config.invitationLink";
+            groupWhats = config.invitationLink;
             $('#whatsapp').attr("href", config.invitationLink);
             initializeClock('clock', config.initEvent);
         });
